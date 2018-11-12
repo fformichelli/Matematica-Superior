@@ -13,27 +13,16 @@ A=[5 -2 3 0;-3 9 1 -2;2 -1 -7 1; 4 3 -5 7]
 
 b=[-1 2 3 0.5]'
 
-%% Matriz columna de incógnitas 
+%% Matriz columna de incógnitas - Vector Inicial
 
 x=[0 0 0 0]'
 
 
+%% Calculo de la Norma de la Matriz = A nombre de la Matriz, y 1,2 o Inf tipo de Norma. 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+norma1= norm(A,1)
+norma2= norm(A,2)
+normaInfinito = norm(A,Inf)
 
 
 

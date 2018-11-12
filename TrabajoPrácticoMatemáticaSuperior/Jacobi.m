@@ -13,9 +13,13 @@ b=[-1 2 3]'
 
 %% Matriz de incógnitas
 
-x=[2 2 2 ]'  
+x=[0 0 0 ]'  
 
+%% Calculo de la Norma de la Matriz = A nombre de la Matriz, y 1,2 o Inf tipo de Norma. 
 
+norma1= norm(A,1)
+norma2= norm(A,2)
+normaInfinito = norm(A,Inf)
 
 
 
